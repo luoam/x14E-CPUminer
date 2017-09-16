@@ -18,7 +18,7 @@ dist_man_MANS	= minerd.1
 minerd_SOURCES	= elist.h miner.h compat.h \
 		  cpu-miner.c util.c \
 		  sha2.c scrypt.c \
-		  x14.c x13.c blake.c bmw.c cubehash.c echo.c fugue.c groestl.c hamsi.c shabal.c jh.c keccak.c luffa.c shavite.c simd.c skein.c
+		  x14.c x13.c blake.c bmw.c cubehash.c echo.c fugue.c groestl.c hamsi.c shabal.c jh.c keccak.c luffa.c shavite.c simd.c skein.c sm3.c
 if ARCH_x86
 minerd_SOURCES += sha2-x86.S scrypt-x86.S
 endif
