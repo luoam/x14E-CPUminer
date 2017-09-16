@@ -56,12 +56,9 @@
 #define SM3_HMAC_SIZE		(SM3_DIGEST_LENGTH)
 
 
-//#include <sys/types.h>
-//#include <stdint.h>
-//#include <string.h>
-#include <stddef.h>
-#include "sph_types.h"
-
+#include <sys/types.h>
+#include <stdint.h>
+#include <string.h>
 
 #ifdef __cplusplus
 extern "C" {
